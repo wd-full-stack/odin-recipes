@@ -1,0 +1,36 @@
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.recipe-list {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.recipe-list a:link,
+.recipe-list a:visited,
+.recipe-list a:hover,
+.recipe-list a:active {
+    color: black;
+}
+
+.recipe-list a:hover,
+.recipe-list a:active {
+    background-color: grey;
+}
+
+.recipe-title {
+    text-align: center;
+}
+
+.recipe-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: auto;
+}
